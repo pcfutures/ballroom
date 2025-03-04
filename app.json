@@ -1,46 +1,44 @@
 {
-	"expo": {
-		"name": "ballroom",
-		"slug": "ballroom",
-		"version": "1.0.0",
-		"orientation": "portrait",
-		"icon": "./assets/icon.png",
-		"userInterfaceStyle": "light",
-		"scheme": "ballroom",
-		"newArchEnabled": true,
-		"experiments": {
-			"typedRoutes": true
-		},
-		"splash": {
-			"image": "./assets/splash-icon.png",
-			"resizeMode": "contain",
-			"backgroundColor": "#ffffff"
-		},
-		"ios": {
-			"supportsTablet": true,
-			"bundleIdentifier": "com.ballroom.app",
-			"infoPlist": {
-				"ITSAppUsesNonExemptEncryption": false
-			},
-			"appleTeamId": "8DUBAUXYKY"
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
-				"backgroundColor": "#ffffff"
-			},
-			"package": "com.ballroom.app"
-		},
-		"web": {
-			"favicon": "./assets/favicon.png"
-		},
-		"extra": {
-			"eas": {
-				"projectId": "1a18359a-297e-4bf6-ada8-6fe48e7a363a"
-			}
-		},
-		"plugins": [
-			"expo-router"
-		]
-	}
+  "expo": {
+    "name": "ballroom",
+    "slug": "ballroom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "ballroom",
+    "newArchEnabled": true,
+    "experiments": {
+      "typedRoutes": true
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ballroom.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "appleTeamId": "8DUBAUXYKY"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ballroom.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a18359a-297e-4bf6-ada8-6fe48e7a363a"
+      }
+    },
+    "plugins": ["expo-router"]
+  }
 }
