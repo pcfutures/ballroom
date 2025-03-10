@@ -11,6 +11,7 @@ import { Drawer } from 'expo-router/drawer';
 import { AppInitializationProvider } from '../src/providers/AppInitializationProvider/AppInitializationProvider';
 import { appPersister, queryClient } from '../src/store/services';
 import { colorSet } from '../src/theme';
+import { DrawerHeader } from '../src/components/ui';
 
 export default function Layout() {
   const activeColorScheme = colorSet('light');
@@ -24,18 +25,11 @@ export default function Layout() {
         >
           <ThemeProvider value={activeColorScheme}>
             <AppInitializationProvider>
-              <Drawer>
+              <Drawer screenOptions={{ header: DrawerHeader }}>
                 <Drawer.Screen
                   name="index"
                   options={{
                     drawerLabel: 'Home',
-                    title: 'overview',
-                  }}
-                />
-                <Drawer.Screen
-                  name="user/[id]"
-                  options={{
-                    drawerLabel: 'User',
                     title: 'overview',
                   }}
                 />
